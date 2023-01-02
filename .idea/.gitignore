@@ -5,7 +5,6 @@
 /httpRequests/
 
 .idea/*
-
 *.css.map
 
 *.xml
