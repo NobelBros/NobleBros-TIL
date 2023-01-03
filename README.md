@@ -17,5 +17,5 @@ This repo is made for NobelBros Pratice Repository
 
 최세범: 
 
-장화현: 
+장화현: https://github.com/janghwahyun
 
