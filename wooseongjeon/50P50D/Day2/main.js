@@ -26,12 +26,15 @@ prev.addEventListener('click', () => {
 })
 
 function update() {
+
   circles.forEach((circle, idx) => {
+
     if(idx < currentActive) {
       circle.classList.add('active')
     } else {
       circle.classList.remove('active')
     }
+    
   })
 
   const actives = document.querySelectorAll('.active')
