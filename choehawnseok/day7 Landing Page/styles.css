@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #333;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 15rem;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.split.left {
+  left: 0;
+  background-size: cover;
+  background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/seto-kaiba-ps5.jpg") center no-repeat;
+}
+.split.left .btn:hover {
+  background: rgb(87, 84, 236);
+  border-color: rgb(87, 84, 236);
+}
+.split.left::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(87, 84, 236, 0.7);
+}
+.split.right {
+  right: 0;
+  background: url("https://i.ytimg.com/vi/W78jqH6skjI/maxresdefault.jpg") no-repeat;
+  background-size: cover;
+}
+.split.right .btn:hover {
+  background: rgb(28, 122, 28);
+  border-color: rgb(28, 122, 28);
+}
+.split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.8);
+}
+.split.right, .split.left {
+  transition: width 1000ms ease-in-out;
+}
+.split.right::before, .split.right::after, .split.left::before, .split.left::after {
+  transition: width 1000ms ease-in-out;
+}
+
+.hover-left .left {
+  width: 75%;
+}
+.hover-left .right {
+  width: 25%;
+}
+
+.hover-right .left {
+  width: 25%;
+}
+.hover-right .right {
+  width: 75%;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .btn {
+    padding: 1.2rem;
+    width: 10em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
