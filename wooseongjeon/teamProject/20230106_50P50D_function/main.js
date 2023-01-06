@@ -26,7 +26,7 @@ contentEl.forEach((content) => {
 })
 
 function removeActiveClasses() {
-  panels.forEach(panel => {
+  contentEl.forEach( content => {
     panel.classList.remove('active')
   })
 }
