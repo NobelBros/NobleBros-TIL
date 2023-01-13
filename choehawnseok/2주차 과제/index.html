@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Drag N Drop & To Do</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Write Your Todo List</h1>
+      <label for="todo-input"></label><input id="todo-input" type="text" />
+    </div>
+    <div class="container">
+      <div class="todo">
+        <h1>Todo</h1>
+        <ul id="todo-list">
+          <li class="item" draggable="true">Drink Water</li>
+        </ul>
+      </div>
+      <div class="done">
+        <h1>Done</h1>
+        <ul id="done-list">
+          <li class="item" draggable="true">Drink Coffee</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
