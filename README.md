@@ -13,7 +13,7 @@ This repo is made for NobelBros Pratice Repository
 
 전우성: https://github.com/wooseongjeon
 
-김재도: 
+김재도: https://github.com/kjdsports
 
 최세범: 
 
