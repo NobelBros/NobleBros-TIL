@@ -1,5 +1,3 @@
-const todo = document.querySelector(".todo");
-const done = document.querySelector(".done");
 const todoList = document.querySelector("#todo-list");
 const doneList = document.querySelector("#done-list");
 const todoListItems = document.querySelectorAll("#todo-list li");
@@ -64,5 +62,4 @@ function dragOver(e) {
 function dragDrop() {
   this.className = "list";
   this.append(currentDraggingItem);
-  console.log("dragDrop");
 }
