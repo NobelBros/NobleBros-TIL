@@ -2,5 +2,5 @@
 
 ## Noblebros 팀 과제
 
-[링크](https://codesandbox.io/s/20230116-team-assignment-forked-qqd7e1)
+[링크](https://codesandbox.io/s/laughing-wind-gsiee9)
 
