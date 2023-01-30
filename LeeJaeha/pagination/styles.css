@@ -1,0 +1,104 @@
+/* 초기화 */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* pagination */
+
+.section-title {
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+}
+.underline {
+  width: 8rem;
+  height: 0.25rem;
+  background: blueviolet;
+  margin: 0 auto;
+}
+.followers {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 5rem auto;
+}
+.container {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 576px) {
+  .container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px 40px;
+  text-align: center;
+}
+.card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px;
+  letter-spacing: 1.6px;
+  border-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page-btn {
+  width: 32px;
+  height: 32px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+}
+.active-btn {
+  background: black;
+  color: white;
+}
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+@media (min-width: 775px) {
+  .btn-container {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+}
