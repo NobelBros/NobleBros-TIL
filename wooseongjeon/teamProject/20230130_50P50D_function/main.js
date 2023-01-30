@@ -1,5 +1,4 @@
 const faqs = document.querySelectorAll('.faq')
-const faqActive = document.querySelector('.faq active')
 
 faqs.forEach(faq => {
   faq.addEventListener('click', () => {
