@@ -1,0 +1,27 @@
+span.ball {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  
+}
+span.ball.red {
+  background-color: red;
+}
+span.ball.gn {
+  background-color: green;
+}
+
+table {
+  width: 500px;
+  border: 1px solid black;
+}
+table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.ex {
+  margin-left: 200px;
+}
