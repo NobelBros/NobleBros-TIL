@@ -1,0 +1,19 @@
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} 
+
+.background {
+  background: url('https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.aitimes.kr%2Fnews%2FarticleView.html%3Fidxno%3D22354&psig=AOvVaw3L9l4gjA1FiVE9h-jyqHZN&ust=1677701914672000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjel-eEuf0CFQAAAAAdAAAAABAE')
+}
