@@ -10,6 +10,23 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
+}
+
+.carousel {
+  height: 530px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.img-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
