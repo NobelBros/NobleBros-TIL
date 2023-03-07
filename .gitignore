@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,visualstudio
 
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### macOS ###
 # General
 .DS_Store
@@ -47,11 +52,6 @@ Temporary Items
 
 # Built Visual Studio Code Extensions
 *.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
