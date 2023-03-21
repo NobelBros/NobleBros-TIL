@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n(n+1)/2 증명</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <h1>1+2+3+...+n이 왜 n(n+1)/2 인가?</h1>
+  <h2>시각화</h2>
+  <table>
+    <tr>
+      <td>N</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5/2 인</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>T(n) 합계</td>
+      <td>1</td>
+      <td>1+2</td>
+      <td>1+2+3</td>
+      <td>1+2+34</td>
+      <td>1..5</td>
+      <td>1..6</td>
+    </tr>
+    <tr>
+      <td>삼각형으로서의 T(n)</td>
+      <td>
+        <span class="ball"></span>
+      </td>
+      <td>
+        <span class="ball"></span><br>
+        <span class="ball"></span>
+        <span class="ball"></span>
+      </td>
+      <td>
+        <span class="ball"></span><br>
+        <span class="ball"></span><span class="ball"></span><br>
+        <span class="ball"></span><span class="ball"></span><span class="ball"></span>
+      </td>
+      <td>
+        <span class="ball"></span><br>
+        <span class="ball"></span><span class="ball"></span><br>
+        <span class="ball"></span><span class="ball"></span><span class="ball"></span><br>
+        <span class="ball"></span><span class="ball"></span><span class="ball"></span><span class="ball"></span>
+      </td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>T(n)</td>
+      <td>1</td>
+      <td>3</td>
+      <td>6</td>
+      <td>10</td>
+      <td>15</td>
+      <td>21</td>
+    </tr>
+  </table>
+  <h2>해석</h2>
+  <p>
+    점의 삼각형 사본 두 개를 맞춥니다 . 하나는 빨간색이고 거꾸로 된 사본은 녹색입니다.
+    예 T(4)=1+2+3+4
+  </p>
+  <div class="ex">
+    <span class="ball red"></span><span class="ball gn"></span><span class="ball gn"></span><span class="ball gn"></span><span class="ball gn"></span><br>
+    <span class="ball red"></span><span class="ball red"></span><span class="ball gn"></span><span class="ball gn"></span><span class="ball gn"></span><br>
+    <span class="ball red"></span><span class="ball red"></span><span class="ball red"></span><span class="ball gn"></span><span class="ball gn"></span><br>
+    <span class="ball red red"></span><span class="ball red"></span><span class="ball red"></span><span class="ball red"></span><span class="ball gn"></span><br>
+  </div>
+  <p>
+    4행(n) 과 5열(n+1)을 얻는다.<br>
+    총 20개의 동그라미 <br>
+    이것을 2로 나누면 10
+  </p>
+</body>
+</html>
