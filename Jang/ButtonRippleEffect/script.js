@@ -19,5 +19,6 @@ button.forEach((button) => {
     this.appendChild(circle)
 
     // 바닐라 JS를 사용할 때 DOM에 뭔가를 추가할 때, 지우는것도 잊지 말아야 한당~
+    setTimeout(() => circle.remove(), 500)
   })
 })
