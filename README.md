@@ -11,11 +11,5 @@ This repo is made for NobelBros Pratice Repository
 
 이재하: https://github.com/jaehafe
 
-전우성: https://github.com/wooseongjeon
-
-김재도: https://github.com/kjdsports
-
-최세범: 
-
 장화현: https://github.com/janghwahyun
 
